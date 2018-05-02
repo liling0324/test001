@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical" >
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="number"
+      android:text="@string/title"
+      tools:text="@string/title" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="本金(NT$)：" />
+
+  <EditText
+      android:id="@+id/input_lend"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:inputType="number" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/rate" />
+
+  <EditText
+      android:id="@+id/input_rate"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:inputType="numberDecimal" />
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/number" />
+
+  <EditText
+      android:id="@+id/input_number"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:inputType="number" />
+
+  <Button
+      android:id="@+id/submit"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/btn" />
+
+  <TextView
+      android:id="@+id/amount"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+</LinearLayout>
